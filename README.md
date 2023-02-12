@@ -11,9 +11,6 @@ With just a few simple steps, users can create a customized resume that is optim
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
