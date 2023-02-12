@@ -2,26 +2,29 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.5.
 
-## Development server
+## Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+ProWrite-AI is a tool that generates personalized and professional resumes for job seekers using AI technology. It was developed for the HackNotts '23 hackathon and uses cutting-edge front-end technologies like HTML5, CSS3, and Angular, and back-end technologies like NodeJS, Express, and OpenAI API.
 
-## Code scaffolding
+With just a few simple steps, users can create a customized resume that is optimized for recruiters and ready to be downloaded as a .docx file. 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Table of Contents
 
-## Build
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Running unit tests
+1. Clone the repository
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Install dependencies
 
-## Running end-to-end tests
+3. Run `npm install`.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+4. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+

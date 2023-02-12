@@ -22,10 +22,18 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "./node_modules/@ant-design/icons-angular/src/inline-svg/",
+                "output": "/assets/"
+              }
             ],
             "styles": [
-              "src/styles.css"
+              "src/theme.less",
+              "src/styles.css",
+              "node_modules/flexboxgrid/css/flexboxgrid.min.css",
+              "node_modules/aos/dist/aos.css"
             ],
             "scripts": []
           },
@@ -34,13 +42,13 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kb",
-                  "maximumError": "1mb"
+                  "maximumWarning": "10mb",
+                  "maximumError": "10mb"
                 },
                 {
                   "type": "anyComponentStyle",
-                  "maximumWarning": "2kb",
-                  "maximumError": "4kb"
+                  "maximumWarning": "10mb",
+                  "maximumError": "10mb"
                 }
               ],
               "outputHashing": "all"
@@ -87,6 +95,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -94,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a7434ef7-b259-43b2-8568-d72bf263b45a"
   }
 }
